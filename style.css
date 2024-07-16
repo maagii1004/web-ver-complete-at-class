@@ -1,5 +1,6 @@
 body{
-    width: 1170px;
+    max-width: 1170px;
+    width: 100%;
     box-sizing: border-box;
     margin: auto;
     padding: 0;
@@ -140,6 +141,7 @@ font-weight: 700;
     height: 575px;
     background-color: white;
     margin-top: 2cm;
+    height: auto;
 }
 .plat-title {
     display: flex;
@@ -158,6 +160,9 @@ background-color: white;
     padding-right: 2cm;
     background: white;
     padding-top: 1.5cm;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
 }
 h4 {
     font-size: 24px;
@@ -170,10 +175,14 @@ h4 {
 .ad {
     width: 100%;
     height: 600px;
+    height: auto;
     background-color: #1B004E;
     margin-top: 4cm;
     display: flex;
     justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
 }
 .col1 {
     width: 40%;
@@ -203,6 +212,7 @@ h3 {
     width: 356.37px;
     height: 385.19px;
     margin-top: 0;
+    height: auto;
 }
 
 .downloaders {
@@ -213,7 +223,8 @@ h3 {
 .learn {
     width: 100%;
     height: 701.75px;
-    background-color: #FFF6FB
+    background-color: #FFF6FB;
+    height: auto;
 }
 .learn-title {
     font-family: sans-serif;
@@ -229,13 +240,14 @@ h3 {
     border: 1px black solid;
     border-radius: 15px;
     overflow: hidden;
+    margin-top: 30px;
+    margin-bottom: 25px;
 }
 .h {
     font-family: sans-serif;
     font-size: 16px;
     line-height: 24px;
     margin: 19px;
- 
 }
 .para {
     font-family: sans-serif;
@@ -259,9 +271,12 @@ h3 {
     display: flex;
     justify-content: center;
     justify-content: space-between;
-    gap: 6px;
+    gap: 15pxpx;
     margin-right: 30px;
     margin-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
 }
 .ann {
     height: 170px;
@@ -380,3 +395,4 @@ padding-right: 1.2cm;
     margin-top: 40px;
     gap: 600px;
   }
+  
